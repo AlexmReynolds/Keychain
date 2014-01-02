@@ -22,6 +22,7 @@
 		E7A473C11875D359000714FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A473A01875D359000714FF /* UIKit.framework */; };
 		E7A473C91875D359000714FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7A473C71875D359000714FF /* InfoPlist.strings */; };
 		E7A473CB1875D359000714FF /* keychainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A473CA1875D359000714FF /* keychainTests.m */; };
+		E7A473D61875D45C000714FF /* KeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A473D51875D45C000714FF /* KeychainManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		E7A473C61875D359000714FF /* keychainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "keychainTests-Info.plist"; sourceTree = "<group>"; };
 		E7A473C81875D359000714FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E7A473CA1875D359000714FF /* keychainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keychainTests.m; sourceTree = "<group>"; };
+		E7A473D41875D45C000714FF /* KeychainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainManager.h; sourceTree = "<group>"; };
+		E7A473D51875D45C000714FF /* KeychainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			children = (
 				E7A473AB1875D359000714FF /* AppDelegate.h */,
 				E7A473AC1875D359000714FF /* AppDelegate.m */,
+				E7A473D41875D45C000714FF /* KeychainManager.h */,
+				E7A473D51875D45C000714FF /* KeychainManager.m */,
 				E7A473AE1875D359000714FF /* Main_iPhone.storyboard */,
 				E7A473B11875D359000714FF /* Main_iPad.storyboard */,
 				E7A473B41875D359000714FF /* ViewController.h */,
@@ -256,6 +261,7 @@
 				E7A473B61875D359000714FF /* ViewController.m in Sources */,
 				E7A473AD1875D359000714FF /* AppDelegate.m in Sources */,
 				E7A473A91875D359000714FF /* main.m in Sources */,
+				E7A473D61875D45C000714FF /* KeychainManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
